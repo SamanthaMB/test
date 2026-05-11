@@ -21,3 +21,15 @@ spec:
   owner: guests
   type: service
   lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: test3-github
+  description: test
+spec:
+  owner: guests
+  type: openapi
+  lifecycle: production
+  system: test
+  definition: test
