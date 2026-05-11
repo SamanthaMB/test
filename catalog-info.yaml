@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-github
+  description: dsfsdfsdf
+  tags:
+    - angular
+    - react
+spec:
+  owner: guests
+  type: service
+  lifecycle: production
+  system: test
