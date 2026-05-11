@@ -1,13 +1,14 @@
+
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Component
 metadata:
-  name: test2-github
-  description: Es otro test
+  name: test-github
+  description: un test
   tags:
     - react
-    - fluxcd
+    - angular
 spec:
   owner: guests
-  type: openapi
-  lifecycle: experimental
-  definition: Es un test
+  type: service
+  lifecycle: production
+  system: test
