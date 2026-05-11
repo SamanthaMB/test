@@ -11,17 +11,9 @@ spec:
   type: service
   lifecycle: production
   system: test
+
 ---
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: test2-github
-  description: test
-spec:
-  owner: guests
-  type: service
-  lifecycle: experimental
----
+
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
